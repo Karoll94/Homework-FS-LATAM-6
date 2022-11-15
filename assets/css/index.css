@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Averiguar como se descarga el minireset */
+@import "./minireset.min.css"; 
+@import "./about.css";
+@import "./barbers.css";
+@import "./contacto.css";
+@import "./galery.css";
+@import "./header.css";
+@import "./jumbotron.css";
+@import "./services.css";
+
+:root {
+    --dark-bg-1: #191c26;
+    --dark-bg-2: #090B13;
+    --dark-bg-3: #111319;
+    --light-grey: #f7f7f7;
+    --main-color: #ff6c00;
+    --text-color-1: #555555;
+    --text--color-2: #9DA4BD;
+    --title-color: #303030;
+    --white: #ffffff;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+/* Quita el subrayado de los enlaces */
+a{
+    text-decoration: none;
+}
+
+.btn-light{
+    background-color: transparent;
+    color: var(--title-color);
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.btn-dark {
+    background-color: transparent;
+    color: var(--white);
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+
