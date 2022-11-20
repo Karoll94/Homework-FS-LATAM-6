@@ -1,0 +1,47 @@
+.jumbotron .jumbotron-scores .left-column > article,
+.jumbotron .jumbotron-scores .right-column> article {
+    
+    background-color: var(--light-gray);
+    color: var(--title-color);
+    font-family: "Open sans", sans-serif;
+}
+
+.jumbotron .jumbotron-scores .left-column> article h2,
+.jumbotron .jumbotron-scores .right-column> article h2 {
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.jumbotron .jumbotron-scores .left-column>article h2 sup,
+.jumbotron .jumbotron-scores .right-column>article h2 sup {
+    color: var(--main-color);
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.jumbotron .jumbotron-scores .left-column>article h4,
+.jumbotron .jumbotron-scores .right-column>article h4 {
+    font-weight: 600;
+}
+
+.jumbotron .jumbotron-content .label {
+    color: var(--title-color);
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+
+}
+
+.jumbotron .jumbotron-content .section-title {
+    color: var(--title-color);
+    font-family: "Raleway", sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.jumbotron .jumbotron-content .description {
+    font-size: 16px;
+    line-height: 25px;
+    color: var(--text-color-1);
+}

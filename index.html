@@ -84,43 +84,43 @@
           <button class="btn-light">Reserva en linea</button>
         </article>
       </section>
-      <!-- Seccion Presios y Servicios -->
+      <!-- Seccion Precios y Servicios -->
       <section class="services">
         <p class="label">
           <span class="rectangle"></span>Disfruta de la compañia de los mejores
           maestros barberos
         </p>
         <h2 class="section-title">Servicios y precios</h2>
-        <section class="service-tables"></section>
 
+        <section class="service_tables">
         <!-- Tabla izquierda -->
-        <table>
-          <tbody>
-            <tr>
-              <td>Corte de pelo para hombre</td>
-              <td class="underline"></td>
-              <td>desde 300 UAH</td>
-            </tr>
+          <table>
+            <tbody>
+              <tr>
+                <td>Corte de pelo para hombre</td>
+                <td class="underline"></td>
+                <td>desde 300 UAH</td>
+              </tr>
 
-            <tr>
-              <td>Arreglo de barba</td>
-              <td class="underline"></td>
-              <td>desde 200 UAH</td>
-            </tr>
+              <tr>
+                <td>Arreglo de barba</td>
+                <td class="underline"></td>
+                <td>desde 200 UAH</td>
+              </tr>
 
-            <tr>
-              <td>Arreglo de bigote</td>
-              <td class="underline"></td>
-              <td>desde 200 UAH</td>
-            </tr>
+              <tr>
+                <td>Arreglo de bigote</td>
+                <td class="underline"></td>
+                <td>desde 200 UAH</td>
+              </tr>
 
-            <tr>
-              <td>Afeitado con navajilla</td>
-              <td class="underline"></td>
-              <td>desde 200 UAH</td>
-            </tr>
-          </tbody>
-        </table>
+              <tr>
+                <td>Afeitado con navajilla</td>
+                <td class="underline"></td>
+                <td>desde 200 UAH</td>
+              </tr>
+            </tbody>
+          </table>
         <!-- Tabla de la derecha -->
         <table>
           <tbody>
@@ -151,10 +151,11 @@
         </table>
       </section>
       <button class="btn-dark">Reserva en linea</button>
-      <!-- Sección infromativa -->
+      </section>
+      <!-- Sección informativa -->
       <section class="jumbotron">
         <!-- indicadores de resultados -->
-        <aside class="jumbotron_scores">
+        <aside class="jumbotron-scores">
           <section class="left-column">
             <article>
               <h2>600<sup>+</sup></h2>
@@ -190,7 +191,7 @@
         </article>
       </section>
       <!-- Sección nuestros barberos -->
-      <section class="barbers"></section>
+      <section class="barbers">
       <p class="label">
         <span class="rectangle"
           >Para quienes de verdad valoran la "atmosfera"</span
@@ -198,6 +199,7 @@
       </p>
       <h2 class="section-title">Nuestros barberos</h2>
 
+      <section class="barbers-cards">
       <!-- Tarjeta 1 -->
       <figure class="card">
         <img src="assets/images/barbers_img_1.jpg" alt="Barbero" />
@@ -236,14 +238,13 @@
           <i class="fa-brands fa-linkedin-in"></i>
         </aside>
       </figure>
-
+      </section>
       <!-- Sección galeria -->
-      <section class="galery"></section>
+      <section class="galery">
       <p class="label">
-        <span class="rectangle"
-          >La palabra de barbería tiene sus raíces en latín</span
-        >
+        <span class="rectangle">La palabra de barbería tiene sus raíces en latín</span>
       </p>
+      </section>
       <section class="galery_photos">
         <img
           src="assets/images/galery_img_1.jpg"
@@ -263,11 +264,12 @@
         />
       </section>
     </main>
+
     <footer>
       <!-- Sección de contacto -->
       <section class="contact">
         <!-- Formulario -->
-        <form action="" class="contact_form" method="">
+        <form action="" class="contact-form" method="">
           <h2 class="section-title">Reserva en línea</h2>
           <input
             id="name"
@@ -283,11 +285,11 @@
             required
             type="text"
           />
-          <textarea name="message" id="message" cols="30" rows="10"></textarea>
+          <textarea name="message" id="message" cols="30" rows="10" placeholder="Comentario"></textarea>
           <button class="btn-dark">Enviar</button>
         </form>
 
-        <article class="contact_content">
+        <article class="contact-content">
           <h2 class="section-title">Contacto</h2>
 
           <address>
@@ -313,7 +315,7 @@
       <!-- Falta la barra del copyright -->
 
       <!-- Barra de redes sociales -->
-      <aside class="social bar">
+      <aside class="social-bar">
         <p class="label">
           <span class="rectangle"></span>
           <a href="#">Instagram</a>

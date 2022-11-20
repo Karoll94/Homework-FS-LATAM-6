@@ -1,0 +1,39 @@
+.services {
+    background-color: var(--dark-bg-3);
+}
+
+.services .label{
+    color: var(--text-color-2);
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    opacity: 0.6;
+}
+
+.services .section-title{
+    color: var(--white);
+    font-family: "Raleway", sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.service_tables >table:nth-child(1){
+    /* respaldo para el navegador antiguo */
+    background: #171a24;
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to bottom, #171a24, rgba(23,26,36,0.2));
+    /* W3C, IE 10+/Edge, firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to bottom,#171a24,rgba(23, 26, 36, 0.2));
+    color: var(--text-color-2);
+}
+
+.service_tables >table:nth-child(2) {
+    /* respaldo para el navegador antiguo */
+    background: #090b13;
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to bottom, #090b13, rgba(9, 11, 19, 0.2));
+    /* W3C, IE 10+/Edge, firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to bottom,#090b13,rgba(9, 11, 19, 0.2));
+    color: var(--text-color-2);
+}
